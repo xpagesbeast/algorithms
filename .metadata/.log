@@ -1,0 +1,230 @@
+!SESSION 2019-01-19 21:46:35.322 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.jboss.tools.browsersim.eclipse 4 0 2019-01-19 21:46:37.343
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.browsersim.eclipse [882]
+  Unresolved requirement: Require-Bundle: org.jboss.tools.browsersim.ui; bundle-version="3.8.0"
+    -> Bundle-SymbolicName: org.jboss.tools.browsersim.ui; bundle-version="3.8.3.v20161201-1732"; singleton:="true"
+       org.jboss.tools.browsersim.ui [884]
+         Unresolved requirement: Require-Bundle: org.eclipse.jetty.websocket.servlet; bundle-version="[9.3.9,9.4.0)"
+           -> Bundle-SymbolicName: org.eclipse.jetty.websocket.servlet; bundle-version="9.3.9.v20160517"
+              org.eclipse.jetty.websocket.servlet [598]
+                Unresolved requirement: Require-Capability: osgi.serviceloader; filter:="(osgi.serviceloader=org.eclipse.jetty.websocket.servlet.WebSocketServletFactory)"; cardinality:="multiple"
+                  -> Provide-Capability: osgi.serviceloader; osgi.serviceloader="org.eclipse.jetty.websocket.servlet.WebSocketServletFactory"
+                     org.eclipse.jetty.websocket.server [597]
+                       Unresolved requirement: Import-Package: org.eclipse.jetty.websocket.servlet; version="[9.3.9,9.3.10)"
+                         -> Export-Package: org.eclipse.jetty.websocket.servlet; bundle-symbolic-name="org.eclipse.jetty.websocket.servlet"; bundle-version="9.3.9.v20160517"; version="9.3.9"; uses:="javax.servlet,javax.servlet.http,org.eclipse.jetty.websocket.api,org.eclipse.jetty.websocket.api.extensions"
+                       Unresolved requirement: Require-Capability: osgi.extender; filter:="(osgi.extender=osgi.serviceloader.registrar)"
+                         -> Provide-Capability: osgi.extender; osgi.extender="osgi.serviceloader.registrar"; version:Version="1.0.0"
+                            org.apache.aries.spifly.dynamic.bundle [540]
+                              No resolution report for the bundle.                Unresolved requirement: Require-Capability: osgi.extender; filter:="(osgi.extender=osgi.serviceloader.processor)"
+                  -> Provide-Capability: osgi.extender; osgi.extender="osgi.serviceloader.processor"; version:Version="1.0.0"
+         Unresolved requirement: Require-Bundle: org.eclipse.jetty.websocket.server; bundle-version="[9.3.9,9.4.0)"
+           -> Bundle-SymbolicName: org.eclipse.jetty.websocket.server; bundle-version="9.3.9.v20160517"
+         Unresolved requirement: Require-Bundle: org.apache.aries.spifly.dynamic.bundle; bundle-version="1.0.2"
+           -> Bundle-SymbolicName: org.apache.aries.spifly.dynamic.bundle; bundle-version="1.0.2"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.apache.aries.spifly.dynamic.bundle [osgi.identity; type="osgi.bundle"; version:Version="1.0.2"; osgi.identity="org.apache.aries.spifly.dynamic.bundle"] because it is exposed to package 'org.objectweb.asm' from resources org.objectweb.asm [osgi.identity; type="osgi.bundle"; version:Version="5.2.0.v20170126-0011"; osgi.identity="org.objectweb.asm"] and org.objectweb.asm [osgi.identity; type="osgi.bundle"; version:Version="6.2.1.v20180823-1831"; osgi.identity="org.objectweb.asm"] via two dependency chains.
+
+Chain 1:
+  org.apache.aries.spifly.dynamic.bundle [osgi.identity; type="osgi.bundle"; version:Version="1.0.2"; osgi.identity="org.apache.aries.spifly.dynamic.bundle"]
+    import: (&(osgi.wiring.package=org.objectweb.asm)(&(version>=5.0.0)(!(version>=6.0.0))))
+     |
+    export: osgi.wiring.package: org.objectweb.asm
+  org.objectweb.asm [osgi.identity; type="osgi.bundle"; version:Version="5.2.0.v20170126-0011"; osgi.identity="org.objectweb.asm"]
+
+Chain 2:
+  org.apache.aries.spifly.dynamic.bundle [osgi.identity; type="osgi.bundle"; version:Version="1.0.2"; osgi.identity="org.apache.aries.spifly.dynamic.bundle"]
+    import: (&(osgi.wiring.package=org.objectweb.asm.commons)(&(version>=5.0.0)(!(version>=6.0.0))))
+     |
+    export: osgi.wiring.package=org.objectweb.asm.commons; uses:=org.objectweb.asm
+  org.objectweb.asm.commons [osgi.identity; type="osgi.bundle"; version:Version="5.2.0.v20170126-0011"; osgi.identity="org.objectweb.asm.commons"]
+    import: (&(osgi.wiring.package=org.objectweb.asm)(version>=5.2.0))
+     |
+    export: osgi.wiring.package: org.objectweb.asm
+  org.objectweb.asm [osgi.identity; type="osgi.bundle"; version:Version="6.2.1.v20180823-1831"; osgi.identity="org.objectweb.asm"]
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.jboss.tools.livereload.core 4 0 2019-01-19 21:46:37.398
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.livereload.core [979]
+  Unresolved requirement: Require-Bundle: org.apache.aries.spifly.dynamic.bundle; bundle-version="1.0.2"
+    -> Bundle-SymbolicName: org.apache.aries.spifly.dynamic.bundle; bundle-version="1.0.2"
+       org.apache.aries.spifly.dynamic.bundle [540]
+         No resolution report for the bundle.  Unresolved requirement: Require-Bundle: org.eclipse.jetty.websocket.servlet; bundle-version="[9.3.9,9.4.0)"
+    -> Bundle-SymbolicName: org.eclipse.jetty.websocket.servlet; bundle-version="9.3.9.v20160517"
+       org.eclipse.jetty.websocket.servlet [598]
+         Unresolved requirement: Require-Capability: osgi.serviceloader; filter:="(osgi.serviceloader=org.eclipse.jetty.websocket.servlet.WebSocketServletFactory)"; cardinality:="multiple"
+           -> Provide-Capability: osgi.serviceloader; osgi.serviceloader="org.eclipse.jetty.websocket.servlet.WebSocketServletFactory"
+              org.eclipse.jetty.websocket.server [597]
+                Unresolved requirement: Import-Package: org.eclipse.jetty.websocket.servlet; version="[9.3.9,9.3.10)"
+                  -> Export-Package: org.eclipse.jetty.websocket.servlet; bundle-symbolic-name="org.eclipse.jetty.websocket.servlet"; bundle-version="9.3.9.v20160517"; version="9.3.9"; uses:="javax.servlet,javax.servlet.http,org.eclipse.jetty.websocket.api,org.eclipse.jetty.websocket.api.extensions"
+                Unresolved requirement: Require-Capability: osgi.extender; filter:="(osgi.extender=osgi.serviceloader.registrar)"
+                  -> Provide-Capability: osgi.extender; osgi.extender="osgi.serviceloader.registrar"; version:Version="1.0.0"
+         Unresolved requirement: Require-Capability: osgi.extender; filter:="(osgi.extender=osgi.serviceloader.processor)"
+           -> Provide-Capability: osgi.extender; osgi.extender="osgi.serviceloader.processor"; version:Version="1.0.0"
+  Unresolved requirement: Require-Bundle: org.eclipse.jetty.websocket.server; bundle-version="[9.3.9,9.4.0)"
+    -> Bundle-SymbolicName: org.eclipse.jetty.websocket.server; bundle-version="9.3.9.v20160517"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.apache.aries.spifly.dynamic.bundle [osgi.identity; type="osgi.bundle"; version:Version="1.0.2"; osgi.identity="org.apache.aries.spifly.dynamic.bundle"] because it is exposed to package 'org.objectweb.asm' from resources org.objectweb.asm [osgi.identity; type="osgi.bundle"; version:Version="5.2.0.v20170126-0011"; osgi.identity="org.objectweb.asm"] and org.objectweb.asm [osgi.identity; type="osgi.bundle"; version:Version="6.2.1.v20180823-1831"; osgi.identity="org.objectweb.asm"] via two dependency chains.
+
+Chain 1:
+  org.apache.aries.spifly.dynamic.bundle [osgi.identity; type="osgi.bundle"; version:Version="1.0.2"; osgi.identity="org.apache.aries.spifly.dynamic.bundle"]
+    import: (&(osgi.wiring.package=org.objectweb.asm)(&(version>=5.0.0)(!(version>=6.0.0))))
+     |
+    export: osgi.wiring.package: org.objectweb.asm
+  org.objectweb.asm [osgi.identity; type="osgi.bundle"; version:Version="5.2.0.v20170126-0011"; osgi.identity="org.objectweb.asm"]
+
+Chain 2:
+  org.apache.aries.spifly.dynamic.bundle [osgi.identity; type="osgi.bundle"; version:Version="1.0.2"; osgi.identity="org.apache.aries.spifly.dynamic.bundle"]
+    import: (&(osgi.wiring.package=org.objectweb.asm.commons)(&(version>=5.0.0)(!(version>=6.0.0))))
+     |
+    export: osgi.wiring.package=org.objectweb.asm.commons; uses:=org.objectweb.asm
+  org.objectweb.asm.commons [osgi.identity; type="osgi.bundle"; version:Version="5.2.0.v20170126-0011"; osgi.identity="org.objectweb.asm.commons"]
+    import: (&(osgi.wiring.package=org.objectweb.asm)(version>=5.2.0))
+     |
+    export: osgi.wiring.package: org.objectweb.asm
+  org.objectweb.asm [osgi.identity; type="osgi.bundle"; version:Version="6.2.1.v20180823-1831"; osgi.identity="org.objectweb.asm"]
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.jboss.tools.livereload.ui 4 0 2019-01-19 21:46:37.449
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.livereload.ui [980]
+  Unresolved requirement: Require-Bundle: org.jboss.tools.livereload.core; bundle-version="1.0.0"
+    -> Bundle-SymbolicName: org.jboss.tools.livereload.core; bundle-version="1.4.3.v20161214-1716"; singleton:="true"
+       org.jboss.tools.livereload.core [979]
+         Unresolved requirement: Require-Bundle: org.apache.aries.spifly.dynamic.bundle; bundle-version="1.0.2"
+           -> Bundle-SymbolicName: org.apache.aries.spifly.dynamic.bundle; bundle-version="1.0.2"
+              org.apache.aries.spifly.dynamic.bundle [540]
+                No resolution report for the bundle.         Unresolved requirement: Require-Bundle: org.eclipse.jetty.websocket.servlet; bundle-version="[9.3.9,9.4.0)"
+           -> Bundle-SymbolicName: org.eclipse.jetty.websocket.servlet; bundle-version="9.3.9.v20160517"
+              org.eclipse.jetty.websocket.servlet [598]
+                Unresolved requirement: Require-Capability: osgi.serviceloader; filter:="(osgi.serviceloader=org.eclipse.jetty.websocket.servlet.WebSocketServletFactory)"; cardinality:="multiple"
+                  -> Provide-Capability: osgi.serviceloader; osgi.serviceloader="org.eclipse.jetty.websocket.servlet.WebSocketServletFactory"
+                     org.eclipse.jetty.websocket.server [597]
+                       Unresolved requirement: Import-Package: org.eclipse.jetty.websocket.servlet; version="[9.3.9,9.3.10)"
+                         -> Export-Package: org.eclipse.jetty.websocket.servlet; bundle-symbolic-name="org.eclipse.jetty.websocket.servlet"; bundle-version="9.3.9.v20160517"; version="9.3.9"; uses:="javax.servlet,javax.servlet.http,org.eclipse.jetty.websocket.api,org.eclipse.jetty.websocket.api.extensions"
+                       Unresolved requirement: Require-Capability: osgi.extender; filter:="(osgi.extender=osgi.serviceloader.registrar)"
+                         -> Provide-Capability: osgi.extender; osgi.extender="osgi.serviceloader.registrar"; version:Version="1.0.0"
+                Unresolved requirement: Require-Capability: osgi.extender; filter:="(osgi.extender=osgi.serviceloader.processor)"
+                  -> Provide-Capability: osgi.extender; osgi.extender="osgi.serviceloader.processor"; version:Version="1.0.0"
+         Unresolved requirement: Require-Bundle: org.eclipse.jetty.websocket.server; bundle-version="[9.3.9,9.4.0)"
+           -> Bundle-SymbolicName: org.eclipse.jetty.websocket.server; bundle-version="9.3.9.v20160517"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.apache.aries.spifly.dynamic.bundle [osgi.identity; type="osgi.bundle"; version:Version="1.0.2"; osgi.identity="org.apache.aries.spifly.dynamic.bundle"] because it is exposed to package 'org.objectweb.asm' from resources org.objectweb.asm [osgi.identity; type="osgi.bundle"; version:Version="5.2.0.v20170126-0011"; osgi.identity="org.objectweb.asm"] and org.objectweb.asm [osgi.identity; type="osgi.bundle"; version:Version="6.2.1.v20180823-1831"; osgi.identity="org.objectweb.asm"] via two dependency chains.
+
+Chain 1:
+  org.apache.aries.spifly.dynamic.bundle [osgi.identity; type="osgi.bundle"; version:Version="1.0.2"; osgi.identity="org.apache.aries.spifly.dynamic.bundle"]
+    import: (&(osgi.wiring.package=org.objectweb.asm)(&(version>=5.0.0)(!(version>=6.0.0))))
+     |
+    export: osgi.wiring.package: org.objectweb.asm
+  org.objectweb.asm [osgi.identity; type="osgi.bundle"; version:Version="5.2.0.v20170126-0011"; osgi.identity="org.objectweb.asm"]
+
+Chain 2:
+  org.apache.aries.spifly.dynamic.bundle [osgi.identity; type="osgi.bundle"; version:Version="1.0.2"; osgi.identity="org.apache.aries.spifly.dynamic.bundle"]
+    import: (&(osgi.wiring.package=org.objectweb.asm.commons)(&(version>=5.0.0)(!(version>=6.0.0))))
+     |
+    export: osgi.wiring.package=org.objectweb.asm.commons; uses:=org.objectweb.asm
+  org.objectweb.asm.commons [osgi.identity; type="osgi.bundle"; version:Version="5.2.0.v20170126-0011"; osgi.identity="org.objectweb.asm.commons"]
+    import: (&(osgi.wiring.package=org.objectweb.asm)(version>=5.2.0))
+     |
+    export: osgi.wiring.package: org.objectweb.asm
+  org.objectweb.asm [osgi.identity; type="osgi.bundle"; version:Version="6.2.1.v20180823-1831"; osgi.identity="org.objectweb.asm"]
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-01-19 21:47:04.732
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Gateway Time-out. ; version: 2.0.4.v20170307-1435
+!STACK 0
+org.apache.http.client.HttpResponseException: Gateway Time-out
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:71)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:93)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:56)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:69)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-01-19 21:47:05.325
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target. ; version: 2.0.4.v20170307-1435
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1937)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1478)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:212)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1050)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1363)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1391)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1375)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:387)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1460)
+	... 27 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:145)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:131)
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:280)
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:382)
+	... 33 more
