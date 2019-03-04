@@ -72,55 +72,47 @@ public class FindTriplet {
             content[i] = in.nextInt();
         }
 
-        find3Numbers(content,setSize,theValue);
+        findNumberOfTriplets(content,setSize,theValue);
         System.out.println(counter);
 
 
     }
 
-    // returns true if there is triplet with sum equal
-    // to 'sum' present in A[]. Also, prints the triplet
-    private static void find3Numbers(int A[], int arr_size, int sum)
+    private static void findNumberOfTriplets(int A[], int arraySize, int sum)
     {
-        int l, r;
+        int low, high;
         /* Sort the elements */
-        quickSort(A, 0, arr_size - 1);
-        /* Now fix the first element one by one and find the
-           other two elements */
-        for (int i = 0; i < arr_size - 2; i++) {
+        quickSort(A, 0, arraySize - 1);
 
-            // To find the other two elements, start two index variables
-            // from two corners of the array and move them toward each
-            // other
-            l = i + 1; // index of the first element in the remaining elements
-            r = arr_size - 1; // index of the last element
-            while (l < r) {
-                if (A[i] + A[l] + A[r] == sum) {
-                    System.out.println(" Triplet is " + A[i] +
-                            ", " + A[l] + ", " + A[r]);
+        for (int i = 0; i < arraySize - 2; i++) {
+            low = i + 1;
+            high = arraySize - 1; // index of the last element
+            while (low < high) {
+                if (A[i] + A[low] + A[high] == sum) {
+                   // System.out.println(" Triplet is " + A[i] + ", " + A[low] + ", " + A[high]);
                     counter++;
-                   // break;
+                    low++;
 
                 }
-                else if (A[i] + A[l] + A[r] < sum)
-                    l++;
+                else if (A[i] + A[low] + A[high] < sum)
+                    low++;
 
-                else // A[i] + A[l] + A[r] > sum
-                    r--;
+                else // A[i] + A[low] + A[high] > sum
+                    high--;
             }
         }
 
-        // If we reach here, then no triplet was found
-        //return false;
+        // no triplet was found
+        //return;
     }
 
-    private static int partition(int A[], int si, int ei)
+    private static int partition(int A[], int indxStart, int indxEnd)
     {
-        int x = A[ei];
-        int i = (si - 1);
+        int x = A[indxEnd];
+        int i = (indxStart - 1);
         int j;
 
-        for (j = si; j <= ei - 1; j++) {
+        for (j = indxStart; j <= indxEnd - 1; j++) {
             if (A[j] <= x) {
                 i++;
                 int temp = A[i];
@@ -129,25 +121,20 @@ public class FindTriplet {
             }
         }
         int temp = A[i + 1];
-        A[i + 1] = A[ei];
-        A[ei] = temp;
+        A[i + 1] = A[indxEnd];
+        A[indxEnd] = temp;
         return (i + 1);
     }
 
-    /* Implementation of Quick Sort
-    A[] --> Array to be sorted
-    si  --> Starting index
-    ei  --> Ending index
-     */
-    private static void quickSort(int A[], int si, int ei)
+    private static void quickSort(int A[], int indxStart, int indxEnd)
     {
-        int pi;
+        int pivot;
 
-        /* Partitioning index */
-        if (si < ei) {
-            pi = partition(A, si, ei);
-            quickSort(A, si, pi - 1);
-            quickSort(A, pi + 1, ei);
+        /* Partitioning */
+        if (indxStart < indxEnd) {
+            pivot = partition(A, indxStart, indxEnd);
+            quickSort(A, indxStart, pivot - 1);
+            quickSort(A, pivot + 1, indxEnd);
         }
     }
 

@@ -86,7 +86,7 @@ public class MergeSort
       I erased the code we did in class.. */
    public static int[] merge(int[] X, int[] Y)
    {
-      System.out.println(counter + ") merging X (size:'" + X.length + "') "+Arrays.toString(X) + ", Y (size:'" + Y.length + "') " + Arrays.toString(Y));
+     // System.out.println(counter + ") merging X (size:'" + X.length + "') "+Arrays.toString(X) + ", Y (size:'" + Y.length + "') " + Arrays.toString(Y));
       int indexX = 0;
       int indexY = 0;
 

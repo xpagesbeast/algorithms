@@ -1,0 +1,2 @@
+INDEX VERSION 1.129+C:\Users\slohja\workspace\algorithms\hackerrank\.metadata\.plugins\org.eclipse.jdt.core
+3668387450.index

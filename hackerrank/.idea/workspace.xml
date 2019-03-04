@@ -1,7 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d92b1b5-050c-4eb7-8a57-70bb44a71d84" name="Default Changelist" comment="" />
+    <list default="true" id="525aa82b-f583-4c59-b295-641555834f4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/51/f071ad19661c00191118a37adf60c90e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.syncinfo.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/algorithms/.indexes/af/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/algorithms/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/algorithms/.syncinfo.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/0.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/bf019a4315d17b835380e0fe32ba5041/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/bf019a4315d17b835380e0fe32ba5041/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/bf019a4315d17b835380e0fe32ba5041/segments_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.central/jboss_buzz.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.central/jboss_buzz.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.central/proxyWizards/1547956026556/.rcache/.contributions.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.central/proxyWizards/1547956026556/.rcache/.contributors.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.central/proxyWizards/1547956026556/.rcache/.extraData.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.central/proxyWizards/1547956026556/.rcache/.mainData.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.central/proxyWizards/1547956026556/.rcache/.manager/.fileTable.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.central/proxyWizards/1547956026556/.rcache/.manager/.fileTable.8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.central/proxyWizards/1547956026556/.rcache/.manager/.fileTableLock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.central/proxyWizards/1547956026556/.rcache/.namespaces.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.central/proxyWizards/1547956026556/.rcache/.orphans.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.central/proxyWizards/1547956026556/.rcache/.table.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.central/proxyWizards/1547956026556/org.jboss.tools.central.discovery.earlyaccess_4.4.4.Final_v20170511_1950_B1616.jar_1516781589056374120.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.central/proxyWizards/1547956026556/org.jboss.tools.central.discovery.integration_stack_4.4.3.Final_v20170522_0930_23_B10.jar_9203185155999647427.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.central/proxyWizards/1547956026556/org.jboss.tools.central.discovery_4.4.4.Final_v20170511_1950_B1616.jar_889890773859541792.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.central/valid_jboss_buzz.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.central/valid_jboss_buzz.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.foundation.core/ECF_REMOTE_CACHE/URLTransportCache.cacheIndex.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.foundation.core/ECF_REMOTE_CACHE/URLTransportCache.cacheIndex.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.project.examples/gatein/quickstarts/jboss-portal-6.2/project-examples-jboss-portal6.2-jbds8.0-001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.project.examples/gatein/quickstarts/jboss-portal-6.2/project-examples-jboss-portal6.2-jbds8.0-001.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.project.examples/jbosstools/examples/4/4/project-examples-category.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.project.examples/jbosstools/examples/4/4/project-examples-category.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.project.examples/jbosstools/examples/4/4/project-examples-community.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.project.examples/jbosstools/examples/4/4/project-examples-community.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.project.examples/jbosstools/examples/4/4/project-examples-shared.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.project.examples/jbosstools/examples/4/4/project-examples-shared.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.project.examples/quickstarts-json/URLTransportCache.cacheIndex.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.project.examples/quickstarts-json/URLTransportCache.cacheIndex.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.usage/events/0548c0f2-5c1f-3561-abbf-bc67a1ee9445" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.usage/events/0548c0f2-5c1f-3561-abbf-bc67a1ee9445" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.usage/events/0b30a034-3ea6-3613-9aee-a291145037db" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.usage/events/0b30a034-3ea6-3613-9aee-a291145037db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.usage/events/aa5cda45-5d4f-3b6b-a90f-729cda351be5" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.usage/events/aa5cda45-5d4f-3b6b-a90f-729cda351be5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.usage/events/central-browser-IE+_11" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.usage/events/central-browser-IE+_11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.usage/events/central-showOnStartup-true" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.jboss.tools.usage/events/central-showOnStartup-true" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hackerrank/NumberOfGuesses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hackerrank/NumberOfGuesses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindTriplet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindTriplet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,67 +71,109 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/hackerrank$BinarySearchGuessingGame.ic" NAME="BinarySearchGuessingGame Coverage Results" MODIFIED="1548571435892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="275" />
-  </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1082613121">
+    <session id="1191066708">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4222" />
+          <entry key="java" value="3179" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4222" />
+          <entry key="JAVA" value="3179" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/NumberOfGuesses.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearchGuessingGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2163">
-              <caret line="103" column="5" selection-start-line="60" selection-start-column="3" selection-end-line="103" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.62227756">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/MergeSort.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+                  <folding>
+                    <element signature="method#merge#0;class#MergeSort#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Sorts.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1220">
+                  <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Solution.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2">
+                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/QuickSort.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="103">
+                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                  <folding>
+                    <element signature="e#293#294#0" expanded="true" />
+                    <element signature="e#330#331#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/QuickSort.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2">
+                  <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#293#294#0" expanded="true" />
+                    <element signature="e#330#331#0" expanded="true" />
+                    <element signature="method#swap#0;class#QuickSort#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,14 +182,29 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>x</find>
+      <find>A</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>indxStart</replace>
+      <replace>indxEnd</replace>
+      <replace>low</replace>
+      <replace>high</replace>
+      <replace>X</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SumArrayValues.java" />
-        <option value="$PROJECT_DIR$/src/CompareTriplets.java" />
-        <option value="$PROJECT_DIR$/src/CoinChange.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearchGuessingGame.java" />
-        <option value="$PROJECT_DIR$/src/NumberOfGuesses.java" />
+        <option value="$PROJECT_DIR$/src/FindTriplet.java" />
+        <option value="$PROJECT_DIR$/src/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/Sorts.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
       </list>
     </option>
   </component>
@@ -95,19 +214,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1695" />
-    <option name="y" value="-12" />
-    <option name="width" value="1938" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1907" />
+    <option name="width" value="1920" />
+    <option name="height" value="967" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,15 +242,21 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548741931841" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551659740454" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\slohja\workspace\algorithms\hackerrank\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -146,53 +270,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumberOfGuesses">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchGuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearchGuessingGame" />
+    <configuration name="FindTriplet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindTriplet" />
       <module name="hackerrank" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoinChange" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSort" />
       <module name="hackerrank" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompareTriplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <envs>
-        <env name="OUTPUT_PATH" value="c:\test\output" />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="CompareTriplets" />
-      <module name="hackerrank" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberOfGuesses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberOfGuesses" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="hackerrank" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumArrayValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <envs>
-        <env name="OUTPUT_PATH" value="c:\\test\\output.txt" />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="SumArrayValues" />
+    <configuration name="Sorts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorts" />
       <module name="hackerrank" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -227,19 +339,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SumArrayValues" />
-      <item itemvalue="Application.CompareTriplets" />
-      <item itemvalue="Application.CoinChange" />
-      <item itemvalue="Application.BinarySearchGuessingGame" />
-      <item itemvalue="Application.NumberOfGuesses" />
+      <item itemvalue="Application.FindTriplet" />
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.Sorts" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumberOfGuesses" />
-        <item itemvalue="Application.BinarySearchGuessingGame" />
-        <item itemvalue="Application.CoinChange" />
-        <item itemvalue="Application.CompareTriplets" />
-        <item itemvalue="Application.SumArrayValues" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Sorts" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.FindTriplet" />
       </list>
     </recent_temporary>
   </component>
@@ -248,25 +358,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8d92b1b5-050c-4eb7-8a57-70bb44a71d84" name="Default Changelist" comment="" />
-      <created>1547788574621</created>
+      <changelist id="525aa82b-f583-4c59-b295-641555834f4f" name="Default Changelist" comment="" />
+      <created>1550412912117</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1547788574621</updated>
-      <workItem from="1547788578044" duration="2702000" />
-      <workItem from="1548567684567" duration="15466000" />
-      <workItem from="1548728399136" duration="8453000" />
-      <workItem from="1548742085926" duration="54000" />
+      <updated>1550412912117</updated>
+      <workItem from="1550412915227" duration="1905000" />
+      <workItem from="1550941264300" duration="22530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26675000" />
+    <option name="totallyTimeSpent" value="24435000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="1907" y="0" width="1920" height="662" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26100966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13828634" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -275,12 +383,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39228296" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32583067" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.87525153" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -294,7 +402,6 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.24274974" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,116 +414,63 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SumArrayValues.java</url>
-          <line>71</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SumArrayValues.java</url>
-          <line>84</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CoinChange.java</url>
-          <line>52</line>
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>41</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CoinChange.java</url>
-          <line>61</line>
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>65</line>
           <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CoinChange.java</url>
-          <line>85</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/NumberOfGuesses.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/NumberOfGuesses.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/NumberOfGuesses.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="17" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/io/FileOutputStream.java">
+    <entry file="file://$PROJECT_DIR$/src/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2549">
-          <caret line="200" column="9" lean-forward="true" selection-start-line="200" selection-start-column="9" selection-end-line="200" selection-end-column="9" />
+        <state relative-caret-position="103">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Integer.java">
+    <entry file="file://$PROJECT_DIR$/src/Sorts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="579" selection-start-line="579" selection-end-line="579" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoinChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1071">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompareTriplets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        <state relative-caret-position="-1220">
+          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SumArrayValues.java">
+    <entry file="file://$PROJECT_DIR$/src/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="126">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#merge#0;class#MergeSort#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NumberOfGuesses.java">
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="2">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearchGuessingGame.java">
+    <entry file="file://$PROJECT_DIR$/src/FindTriplet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2163">
-          <caret line="103" column="5" selection-start-line="60" selection-start-column="3" selection-end-line="103" selection-end-column="5" />
+        <state relative-caret-position="105">
+          <caret line="63" lean-forward="true" selection-start-line="65" selection-start-column="7" selection-end-line="72" selection-end-column="9" />
         </state>
       </provider>
     </entry>
