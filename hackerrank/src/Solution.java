@@ -4,7 +4,6 @@ public class Solution {
     static int numVertices = 5;
     static int inf = 10000;
     static int distance[][] = new int[numVertices][numVertices];
-
     static int map[][]= new int[numVertices][numVertices];
     static StringBuffer buffer = null;
     public static void main(String[] args) {
@@ -16,7 +15,7 @@ public class Solution {
                 for (int col = 0; col < numVertices; col++) {
                     if(distance[row][k] + distance[k][col] < distance[row][col]) {
                         distance[row][col] = distance[row][k] + distance[k][col];
-                        map[row][col] = k+1;
+                        map[row][col] = k;
                     }
 
                 }
@@ -38,7 +37,7 @@ public class Solution {
         //print map
        // for(int verticy =1; verticy<=numVertices; verticy++) {
 
-
+/*
             for (int verticy = 0; verticy < numVertices; verticy++) {
 
                 for (int col = 0; col < numVertices; col++) {
@@ -58,7 +57,21 @@ public class Solution {
                 }
 
             }
+            */
        // }
+//        /*
+//
+   for (int from = 0; from < numVertices; from++) {
+
+          for (int to = 0; to < numVertices; to++) {
+
+                System.out.println("V" + (from + 1) + printPath2(from, to));
+
+            }
+
+
+        }
+// */
     }
 
     private static void printPath(int row, int col){
@@ -75,11 +88,22 @@ public class Solution {
 
     }
 
+    public static String printPath2(int f, int t){
+
+        if(map[f][t] == -1){
+            return(" V" + (t + 1));
+        }
+
+        return(printPath2(f, map[f][t]) + printPath2(map[f][t], t));
+
+    }
+
     private static void loadMatrix(boolean useInputStream){
         if(useInputStream){
             Scanner in = new Scanner(System.in);
             numVertices = in.nextInt();
             distance = new int[numVertices][numVertices];
+            map = new int[numVertices][numVertices];
             for(int i=0;i<numVertices;i++){
                 for(int j=0;j<numVertices;j++){
                     distance[i][j] = in.nextInt();
@@ -118,8 +142,8 @@ public class Solution {
         }
 
         //initialize map
-        for (int row=0; row < numVertices; row++) {
-            for (int col = 0; col < numVertices; col++) {
+        for (int row=0; row < distance.length; row++) {
+            for (int col = 0; col < distance.length; col++) {
                 map[row][col] = -1;
             }
         }
