@@ -14,7 +14,7 @@ public class MergSort {
 	      System.out.println( Arrays.toString(ar) );
 	      if( isSorted(ar) ) 
 	      {
-	         System.out.println("Array is sorted!");
+	         System.out.println("This Array is sorted!");
 	      }
 	      else
 	      {
